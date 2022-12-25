@@ -1,0 +1,88 @@
+body {
+    background-color: #f8f9fa;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #ced4da;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0d6efd;
+    border-radius: 10px;
+}
+
+.topbar {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.content-divider {
+    background-color: #ced4da;
+    padding: 30px;
+}
+
+.content-header {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.content-title {
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-title-bottom-border {
+    border: 0px;
+    border-radius: 10px;
+    height: 5px;
+    background-color: #0d6efd;
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.content-information {
+    position: absolute;
+    z-index: 2;
+    width: 75%;
+}
+
+.content-img-background {
+    position: relative;
+    z-index: 1;
+    width: 75%;
+    opacity: .4;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.preloader {
+    position: fixed;
+    background-color: #0d6efd;
+    z-index: 999999999999;
+    width: 100%;
+    height: 100%;
+}
+
+.preloader .preloader-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.preloader-content .preloader-icon {
+    margin: .5rem;
+}
