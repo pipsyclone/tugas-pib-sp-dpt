@@ -651,7 +651,7 @@ const Konsultasi = () => {
 
                         <div className="card card-body col-sm-5 mx-auto">
                             <button type="submit" className={'btn btn-primary rounded-0 float-end'}>
-                                Konsultasi
+                                Selesai
                             </button>
                         </div>
                     </div>
